@@ -1,5 +1,5 @@
 book_filename: "ShiNyP-guide"
-output_dir: "_book"
+output_dir: "docs"
 delete_merged_file: true
 language:
   ui:
