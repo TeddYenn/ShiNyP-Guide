@@ -1,0 +1,51 @@
+# *ShiNyP* {#sec-shinyp}
+
+::: {.highlighted-text style="padding-top: 15px; padding-bottom: 15px; padding-left: 15px"}
+| 📄 **Input data:** Genome-wide biallelic SNP in Variant Call Format (VCF) file format.
+| 📊 **Analysis:** Data QC, population genetics analysis, core collection…
+| 📋 **Output:** Publication-ready figures, tables, analyzed data objects, and AI-driven report.
+:::
+
+------------------------------------------------------------------------
+
+| **Key Features**
+| \> Statistical and computational exploration
+| \> Customizable visualization options
+| \> Publication-ready figures and tables
+| \> Analyzed data objects
+| \> Auto-generate customized preliminary results
+| \> AI-driven report - powered by OpenAI
+
+#### Publication {.unnumbered}
+
+Huang et al. (upcoming 2024) *ShiNyP*: A Shiny-Based Interactive Platform for Genome-Wide SNP Analysis and Visualization [**https://www.example.com**](https://www.example.com/)
+
+#### Support {.unnumbered}
+
+If you encounter any issues or have suggestions for new features, please submit a report through our feedback form: [**https://forms.gle/GPCggSo5czyNLfoB7 (Google Form)**](https://forms.gle/GPCggSo5czyNLfoB7)
+
+#### Websites {.unnumbered}
+
+-   **Journal Article**: [https://www.example.com](https://www.example.com/)
+
+-   **GitHub Repository**: <https://github.com/TeddYenn/ShiNyP>
+
+-   **User Manual**: <https://teddyenn.github.io/ShiNyP_guide.io/>
+
+-   **Detailed Description of Statistical Methods**: [https://www.example.com](https://www.example.com/)
+
+-   **Demo Datasets**: [https://reurl.cc/QEx5lZ (Google Drive)](https://reurl.cc/QEx5lZ)
+
+-   **Demo Platform**: <https://teddyhuang.shinyapps.io/ShiNyP/>
+
+-   **Feedback Form**: <https://forms.gle/GPCggSo5czyNLfoB7>
+
+------------------------------------------------------------------------
+
+![](images/Fig. 1-02.jpg)
+
+| ▲ **An overview of the [*ShiNyP*]{style="color: #9D6853;"} platform's workflow for genome-wide SNP data analysis.** 
+| - Data Input & Processing: Beginning with [VCF data input](https://teddyenn.github.io/ShiNyP_guide.io/sec-data-input.html#sec-data-input), it performs [quality control (QC)](https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html) and [data transformation](https://teddyenn.github.io/ShiNyP_guide.io/sec-data-conversion.html) steps. 
+| - Analysis & Output: The analysis phase is divided into modules, each represented as a page in the platform, with multiple subpages offering specific analytical functions, including [population structure](https://teddyenn.github.io/ShiNyP_guide.io/sec-population-structure.html), [genetic diversity](https://teddyenn.github.io/ShiNyP_guide.io/sec-genetic-diversity.html), [selection sweep](https://teddyenn.github.io/ShiNyP_guide.io/sec-selection-sweep.html), and [core collection](https://teddyenn.github.io/ShiNyP_guide.io/sec-core-collection.html). 
+| - Customized Output: The final output offers tailored visualizations and includes an AI-generated report summarizing the results. The pipeline streamlines data input, processing, and advanced analysis to deliver publication-ready figures and reports customized to the user’s needs. 
+| \*Subpage frame colors indicate available customizable functions. For example, blue frames for [PCA]{.underline} and [DAPC]{.underline} correspond to the Scatter Plot ^Plus^ tool for customizing scatter plots, while red and purple frames correspond to Tree Plot ^Plus^ and Manhattan Plot ^Plus^, respectively. 
