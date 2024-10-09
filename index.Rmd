@@ -9,7 +9,7 @@ documentclass: book
 bibliography:
 - book.bib
 - packages.bib
-description: "A Shiny-Based Interactive Platform for Genome-Wide SNP Analysis and Visualization"
+description: "An Interactive Shiny-Based Platform for Genome-Wide SNP Analysis and Visualization"
 link-citations: true
 github-repo: "TeddYenn/ShiNyP"
 ---
@@ -54,7 +54,7 @@ Input your SNP data in VCF format, or feel free to use our [**Demo Data**]{style
 
 ------------------------------------------------------------------------
 
-[***ShiNyP***]{style="color: #9D6853;"} is also accessible online at <a href="https://teddyhuang.shinyapps.io/ShiNyP/" target="_blank">**https://teddyhuang.shinyapps.io/ShiNyP/**</a>. But, please note that due to limited memory usage on this platform, we [**DO NOT RECOMMEND**]{style="color: #8b0000;"} using it to analyze large SNP dataset. The online version is intended solely as a demo website for demonstration purposes. For real data analysis, please consider downloading the platform from GitHub repository <a href="https://github.com/TeddYenn/ShiNyP" target="_blank">**https://github.com/TeddYenn/ShiNyP**</a> and running it locally on the R environment.
+[***ShiNyP***]{style="color: #9D6853;"} is also accessible online at <a href="https://teddyhuang.shinyapps.io/ShiNyP/" target="_blank">[**https://teddyhuang.shinyapps.io/ShiNyP/**](https://teddyhuang.shinyapps.io/ShiNyP/){.uri}</a>. But, please note that due to limited memory usage on this platform, we [**DO NOT RECOMMEND**]{style="color: #8b0000;"} using it to analyze large SNP dataset. The online version is intended solely as a demo website for demonstration purposes. For real data analysis, please consider downloading the platform from GitHub repository <a href="https://github.com/TeddYenn/ShiNyP" target="_blank">[**https://github.com/TeddYenn/ShiNyP**](https://github.com/TeddYenn/ShiNyP){.uri}</a> and running it locally on the R environment.
 
 ------------------------------------------------------------------------
 
