@@ -4,12 +4,12 @@ author:
   - name: "Yen-Hsiang Huang, Chung-Feng Kao"
     affiliation: "National Chung-Hsing University (NCHU)"
 date: "Oct 2024"
+description: "An Interactive Shiny-Based Platform for Genome-Wide SNP Analysis and Visualization"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography:
 - book.bib
 - packages.bib
-description: "An Interactive Shiny-Based Platform for Genome-Wide SNP Analysis and Visualization"
 link-citations: true
 github-repo: "TeddYenn/ShiNyP"
 ---

@@ -12,13 +12,13 @@
 | \> Statistical and computational exploration
 | \> Customizable visualization options
 | \> Publication-ready figures and tables
-| \> Analyzed data objects
-| \> Auto-generate customized preliminary results
+| \> Analyzed R serialization objects
+| \> Auto-generate preliminary results
 | \> AI-driven report - powered by OpenAI
 
 #### Publication {.unnumbered}
 
-Huang et al. (upcoming 2024) *ShiNyP*: An Interactive Shiny-Based Platform for Genome-Wide SNP Analysis and Visualization <a href="https://www.example.com" target="_blank">Under Revie
+Huang et al. (upcoming 2024) *ShiNyP*: An Interactive Shiny-Based Platform for Genome-Wide SNP Analysis and Visualization
 
 #### Support {.unnumbered}
 
@@ -30,11 +30,11 @@ If you encounter any issues or have suggestions for new features, please submit 
 
 -   **GitHub Repository**: <a href="https://github.com/TeddYenn/ShiNyP" target="_blank">https://github.com/TeddYenn/ShiNyP</a>
 
--   **User Manual**: <a href="https://github.com/TeddYenn/ShiNyP" target="_blank">https://github.com/TeddYenn/ShiNyP</a>
+-   **User Manual**: <a href="https://github.com/TeddYenn/ShiNyP" target="_blank">https://teddyenn.github.io/ShiNyP-guide</a>
 
 -   **Demo Datasets**: <a href="https://reurl.cc/QEx5lZ" target="_blank">https://reurl.cc/QEx5lZ</a>
 
--   **Demo Platform**: <a href="https://teddyhuang.shinyapps.io/ShiNyP/" target="_blank">https://teddyhuang.shinyapps.io/ShiNyP/</a>
+-   **Demo Platform**: <a href="https://teddyhuang.shinyapps.io/ShiNyP/" target="_blank">https://teddyhuang.shinyapps.io/ShiNyP</a>
 
 -   **Feedback Form**: <a href="https://forms.gle/GPCggSo5czyNLfoB7" target="_blank">https://forms.gle/GPCggSo5czyNLfoB7</a>
 
