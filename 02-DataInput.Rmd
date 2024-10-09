@@ -4,7 +4,7 @@
 ➡️ This section contains two subpages: [**VCF**]{.underline} and [**data.frame/genind/genlight**]{.underline}, allowing you to upload various data types for analysis.
 :::
 
-![](images/Supp. Fig. 1-5_頁面_1.jpg)
+![](images/Supp.%20Fig.%201-5_頁面_1.jpg)
 
 ## VCF
 
@@ -28,7 +28,7 @@ The VCF file should contain chromosome and position information in the first two
 
 *Or use our Demo Data*
 
-1.  Click the [**Use Demo Data**]{style="color: #fff;background-color: #007ACC;"} button and select one species. Detailed descriptions of the demo datasets are available at [https://reurl.cc/QEx5lZ (Google Drive)](https://reurl.cc/QEx5lZ).
+1.  Click the [**Use Demo Data**]{style="color: #fff;background-color: #007ACC;"} button and select one species. Detailed descriptions of the demo datasets are available at <a href="https://reurl.cc/QEx5lZ" target="_blank">https://reurl.cc/QEx5lZ</a>.
 
 > **Note:** By default, the genotypic information for 5 samples and 10 SNPs will be displayed on the interactive table.
 

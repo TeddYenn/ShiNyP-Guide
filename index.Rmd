@@ -47,14 +47,14 @@ Input your SNP data in VCF format, or feel free to use our [**Demo Data**]{style
 ------------------------------------------------------------------------
 
 ::: {.highlighted-text style="padding-top: 15px; padding-bottom: 1px; padding-left: 15px;background-color: #ceeafa; color: #0a3f5d"}
-**This is the user guide page for [*ShiNyP*]{style="color: #9D6853;"}, live at <https://teddyenn.github.io/ShiNyP_guide.io/>.**
+**This is the user guide page for [*ShiNyP*]{style="color: #9D6853;"}, live at <https://teddyenn.github.io/ShiNyP-guide/>.**
 :::
 
 ![](images/0928_頁面_1.jpg)
 
 ------------------------------------------------------------------------
 
-[***ShiNyP***]{style="color: #9D6853;"} is also accessible online at [**https://teddyhuang.shinyapps.io/ShiNyP/**](https://teddyhuang.shinyapps.io/ShiNyP/). But, please note that due to limited memory usage on this platform, we [**DO NOT RECOMMEND**]{style="color: #8b0000;"} using it to analyze large SNP dataset. The online version is intended solely as a demo website for demonstration purposes. For real data analysis, please consider downloading the platform from GitHub repository [**https://github.com/TeddYenn/ShiNyP**](https://github.com/TeddYenn/ShiNyP) and running it locally on the R environment.
+[***ShiNyP***]{style="color: #9D6853;"} is also accessible online at <a href="https://teddyhuang.shinyapps.io/ShiNyP/" target="_blank">**https://teddyhuang.shinyapps.io/ShiNyP/**</a>. But, please note that due to limited memory usage on this platform, we [**DO NOT RECOMMEND**]{style="color: #8b0000;"} using it to analyze large SNP dataset. The online version is intended solely as a demo website for demonstration purposes. For real data analysis, please consider downloading the platform from GitHub repository <a href="https://github.com/TeddYenn/ShiNyP" target="_blank">**https://github.com/TeddYenn/ShiNyP**</a> and running it locally on the R environment.
 
 ------------------------------------------------------------------------
 

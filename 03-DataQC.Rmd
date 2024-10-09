@@ -68,9 +68,9 @@ Adjust the thresholds and click the [**SNP QC by Thresholds**]{style="color: #ff
 
 -   **Chromosome Info.** **(CSV)**: Reference genome information of the current study.
 
-    [***Click here***](https://drive.google.com/file/d/1gIEba13YizQ14IU8gPYj8q57C3urTUpa/view?usp=drive_link)*: Download an example of **Chromosome Info.(CSV)**.*
+    <a href="https://drive.google.com/file/d/1gIEba13YizQ14IU8gPYj8q57C3urTUpa/view?usp=drive_link" target="_blank">***Click here***</a>*: Download an example of **Chromosome Info.(CSV)**.*
 
-    ▼ Example: The **Chromosome Info.** of rice (Data source: <https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_034140825.1/>)
+    ▼ Example: The **Chromosome Info.** of rice (Data source: <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_034140825.1/" target="_blank">https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_034140825.1/</a>)
 
     | Chr   | Start | End      |
     |-------|-------|----------|
@@ -87,7 +87,7 @@ Adjust the thresholds and click the [**SNP QC by Thresholds**]{style="color: #ff
     | Chr11 | 0     | 31111469 |
     | Chr12 | 0     | 28271460 |
 
-##### Steps:  {.unnumbered}
+##### Steps: {.unnumbered}
 
 1.  [Upload]{style="background-color: #fceed2;"} **Site Info.** **(RDS)** and **Chromosome Info. (CSV)**.
 

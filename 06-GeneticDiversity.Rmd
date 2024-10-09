@@ -4,7 +4,7 @@
 ➡️ This section contains four subpages: [**Diversity Parameter**]{.underline}, [**Circos Plot**]{.underline}, [**Genetic Distance**]{.underline}, and [**AMOVA**]{.underline}, allowing you to conduct various population diversity and differentiation analyses.
 :::
 
-![](images/Supp. Fig. 1-5_頁面_3.jpg)
+![](images/Supp.%20Fig.%201-5_頁面_3.jpg)
 
 ## Diversity Parameter
 
@@ -79,7 +79,7 @@ Genome-wide diversity is visualized using Circos plots generated with the *circl
 
 ## Genetic Distance
 
-Pairwise genetic distance between populations is computed using *hierfstat* package. For more information, visit [https://rdrr.io/cran/hierfstat/man/genet.dist.html](#0).
+Pairwise genetic distance between populations is computed using *hierfstat* package. For more information, visit <a href="https://rdrr.io/cran/hierfstat/man/genet.dist.html" target="_blank">https://rdrr.io/cran/hierfstat/man/genet.dist.html</a>.
 
 ##### Required Dataset: {.unnumbered}
 

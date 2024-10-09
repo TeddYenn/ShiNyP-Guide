@@ -4,7 +4,7 @@
 ➡️ This section contains two subpages: [**Core Sample Set**]{.underline}, and [**Core SNP Set**]{.underline}, allowing you to capture the key samples and SNPs.
 :::
 
-![](images/Supp. Fig. 1-5_頁面_5.jpg)
+![](images/Supp.%20Fig.%201-5_頁面_5.jpg)
 
 ## Core Sample Set
 

@@ -4,7 +4,7 @@
 ➡️ This section contains four subpages: [**pcadapt**]{.underline}, [**OutFLANK**]{.underline}, [**IBS**]{.underline}, and [**Manhattan Plot**]{.underline}^**Plus**^, allowing you to detect selection signatures in different scenario and customize your plot.
 :::
 
-![](images/Supp. Fig. 1-5_頁面_4.jpg)
+![](images/Supp.%20Fig.%201-5_頁面_4.jpg)
 
 ## pcadapt
 
@@ -19,7 +19,7 @@ A PCA-based approach identifies selective outliers relative to population struct
 
 1.  [Upload]{style="background-color: #fceed2;"} **Site Info.** (required).
 
-2.  Click [SNP Thinning]{style="color: #fff;background-color: #007ACC;"} button (optional) and choose window size (number of SNPs) and r² threshold. For more information, visit <https://bcm-uga.github.io/pcadapt/articles/pcadapt.html>.
+2.  Click [SNP Thinning]{style="color: #fff;background-color: #007ACC;"} button (optional) and choose window size (number of SNPs) and r² threshold. For more information, visit <a href="https://bcm-uga.github.io/pcadapt/articles/pcadapt.html" target="_blank">https://bcm-uga.github.io/pcadapt/articles/pcadapt.html</a>.
 
 3.  Click the [**Run pcadapt**]{style="color: #fff;background-color: #007ACC;"} button to perform genome scan for selection.
 
@@ -43,7 +43,7 @@ A PCA-based approach identifies selective outliers relative to population struct
 
 ## OutFLANK
 
-A Fst-based approach detects selection signals by comparing genetic differentiation between defined group assignments [@whitlock2015]. For more information, visit <https://rpubs.com/lotterhos/outflank>.
+A Fst-based approach detects selection signals by comparing genetic differentiation between defined group assignments [@whitlock2015]. For more information, visit <a href="https://rpubs.com/lotterhos/outflank" target="_blank">https://rpubs.com/lotterhos/outflank</a>.
 
 ##### Required Datasets: {.unnumbered}
 
