@@ -10,9 +10,9 @@
 
 ##### Required Dataset (one of the following): {.unnumbered}
 
--   VCF file from PLINK
+-   VCF file from <a href="https://www.cog-genomics.org/plink/1.9/input" target="_blank">PLINK</a>
 
--   VCF or gzipped VCF (vcf.gz) file from VCFtools
+-   VCF or gzipped VCF (vcf.gz) file from <a href="https://vcftools.sourceforge.net/man_latest.html" target="_blank">VCFtools</a>
 
 -   VCF file in RDS format from [***ShiNyP***]{style="color: #9D6853;"}
 

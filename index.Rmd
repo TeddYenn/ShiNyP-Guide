@@ -2,9 +2,9 @@
 title: 'ShiNyP: User Guide'
 author: 
   - name: "Yen-Hsiang Huang, Chung-Feng Kao"
-    affiliation: "National Chung-Hsing University (NCHU)"
+    affiliation: "Department of Agronomy, National Chung-Hsing University, Taiwan"
 date: "Oct 2024"
-description: "An Interactive Shiny-Based Platform for Genome-Wide SNP Analysis and Visualization"
+description: "ShiNyP: An Interactive Shiny-Based Platform for Genome-Wide SNP Analysis and Visualization"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography:
@@ -58,4 +58,7 @@ Input your SNP data in VCF format, or feel free to use our [**Demo Data**]{style
 
 ------------------------------------------------------------------------
 
--   Oct 2024: Initial release v1.0.0 of [***ShiNyP***]{style="color: #9D6853;"} on GitHub.
+-   Aug 2024: Initial release alpha version on [GitHub](https://github.com/TeddYenn/ShiNyP).
+-   Oct 2024: Release v0.1.0 on [GitHub](https://github.com/TeddYenn/ShiNyP).
+
+For any inquiries, please email us at: [teddyhuangyh\@gmail.com](mailto:teddyhuangyh@gmail.com){.email}

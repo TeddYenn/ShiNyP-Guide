@@ -12,11 +12,11 @@
 
 > **Note**: You can download the Preliminary Results as a `.txt` file, edit it as needed, and upload it again for 'AI-driven Report' use.
 
-##### Step 2: AI-driven Report {.unnumbered}
+##### Step 2: AI-Driven Report {.unnumbered}
 
-1.  Select an AI model. We recommend using **GPT-4o mini**, which offers the most cost-efficient performance. For more information, visit: <a href="https://platform.openai.com/docs/models" target="_blank">https://platform.openai.com/docs/models</a>.
+1.  Select an AI model. We recommend using **GPT-4o mini**, which offers the most cost-efficient performance. For more information, see below and visit: <a href="https://platform.openai.com/docs/models" target="_blank">https://platform.openai.com/docs/models</a>.
 
-2.  Specify the task for your Preliminary Results to OpenAI.
+2.  Specify the task for your Preliminary Results to OpenAI models (see below).
 
 3.  Upload the `.txt` file containing your OpenAI API key (e.g., "sk-......").
 
@@ -26,7 +26,19 @@
 
 4.  Click the [**Get Report**]{style="color: #fff;background-color: #00a595;"} button to obtain **AI-driven Report**.
 
-    ------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+##### Tasks for AI models: {.unnumbered}
+
+-   **Summary Request**: Generate a [succinct overview of the key findings]{.underline} from a genome-wide SNP analysis, ensuring clarity and a structured presentation of results.
+
+-   **Data Interpretation**: Facilitate the analysis of genome-wide SNP data by [elucidating findings and offering insights]{.underline} into population structure and genetic variation.
+
+-   **Report Structuring**: Develop a comprehensive framework for organizing and presenting the results of genome-wide SNP analysis in a [scientific report]{.underline} format.
+
+-   **Idea Expansion**: Assist in brainstorming potential [future research directions or experiments informed]{.underline} by the results of the SNP analysis.
+
+------------------------------------------------------------------------
 
 ##### **How to get the OpenAI API key**: {.unnumbered}
 
@@ -41,6 +53,10 @@
 5.  **Copy and Paste** the generated key into a Notepad file and save it as a `.txt` file for [***ShiNyP***]{style="color: #9D6853;"} use.
 
 Upon signing up, OpenAI provides free credits valid for 3 months. After the free trial credits expire or are exhausted, you'll be billed based on your usage. Costs depend on the model and the number of tokens processed.
+
+![](images/clipboard-420815584.png)
+
+*The AI Report Complete!*
 
 ------------------------------------------------------------------------
 

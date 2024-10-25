@@ -180,15 +180,17 @@ Input your SNP data in VCF format, or feel free to use our {\textbf{Demo Data}}.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-{\textbf{\emph{ShiNyP}}} is also accessible online at \textbf{\url{https://teddyhuang.shinyapps.io/ShiNyP/}}. But, please note that due to limited memory usage on this platform, we {\textbf{DO NOT RECOMMEND}} using it to analyze large SNP dataset. The online version is intended solely as a demo website for demonstration purposes. For real data analysis, please consider downloading the platform from GitHub repository \textbf{\url{https://github.com/TeddYenn/ShiNyP}} and running it locally on the R environment.
+{\textbf{\emph{ShiNyP}}} is also accessible online at \href{https://teddyhuang.shinyapps.io/ShiNyP/}{\textbf{https://teddyhuang.shinyapps.io/ShiNyP/}}. But, please note that due to limited memory usage on this platform, we {\textbf{DO NOT RECOMMEND}} using it to analyze large SNP dataset. The online version is intended solely as a demo website for demonstration purposes. For real data analysis, please consider downloading the platform from GitHub repository \href{https://github.com/TeddYenn/ShiNyP}{\textbf{https://github.com/TeddYenn/ShiNyP}} and running it locally on the R environment.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \begin{itemize}
 \tightlist
 \item
-  Oct 2024: Initial release v1.0.0 of {\textbf{\emph{ShiNyP}}} on GitHub.
+  Oct 2024: Initial release v0.1.0 of {\textbf{\emph{ShiNyP}}} on \href{https://github.com/TeddYenn/ShiNyP}{GitHub}.
 \end{itemize}
+
+For any inquiries, please email us at: \href{mailto:teddyhuangyh@gmail.com}{\nolinkurl{teddyhuangyh@gmail.com}}
 
 \chapter{\texorpdfstring{\emph{ShiNyP}}{ShiNyP}}\label{sec-shinyp}
 
@@ -199,17 +201,17 @@ Input your SNP data in VCF format, or feel free to use our {\textbf{Demo Data}}.
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \textbf{Key Features}\\
-\textgreater{} Statistical and computational exploration\\
+Real-time Processing, Analysis, and Visualization of SNP Datasets:\\
+\textgreater{} Comprehensive statistical and computational exploration\\
 \textgreater{} Customizable visualization options\\
 \textgreater{} Publication-ready figures and tables\\
-\textgreater{} Analyzed data objects\\
-\textgreater{} Auto-generate customized preliminary results\\
-\textgreater{} AI-driven report - powered by OpenAI
+\textgreater{} Reproducible analyzed data objects\\
+\textgreater{} AI-driven report generation
 
 \subsubsection*{Publication}\label{publication}
 \addcontentsline{toc}{subsubsection}{Publication}
 
-Huang et al.~(upcoming 2024) \emph{ShiNyP}: A Shiny-Based Interactive Platform for Genome-Wide SNP Analysis and Visualization Under Review\ldots{}
+Huang et al.~(upcoming 2024) \emph{ShiNyP}: An Interactive Shiny-Based Platform for Genome-Wide SNP Analysis and Visualization
 
 \subsubsection*{Support}\label{support}
 \addcontentsline{toc}{subsubsection}{Support}
@@ -225,13 +227,11 @@ If you encounter any issues or have suggestions for new features, please submit 
 \item
   \textbf{GitHub Repository}: https://github.com/TeddYenn/ShiNyP
 \item
-  \textbf{User Manual}: https://github.com/TeddYenn/ShiNyP
-\item
-  \textbf{Detailed Description of Statistical Methods}: Under Construction\ldots{}
+  \textbf{User Manual}: https://teddyenn.github.io/ShiNyP-guide
 \item
   \textbf{Demo Datasets}: https://reurl.cc/QEx5lZ
 \item
-  \textbf{Demo Platform}: https://teddyhuang.shinyapps.io/ShiNyP/
+  \textbf{Demo Platform}: https://teddyhuang.shinyapps.io/ShiNyP
 \item
   \textbf{Feedback Form}: https://forms.gle/GPCggSo5czyNLfoB7
 \end{itemize}
@@ -244,7 +244,7 @@ If you encounter any issues or have suggestions for new features, please submit 
 - Data Input \& Processing: Beginning with VCF data input, it performs quality control (QC) and data transformation steps.\\
 - Analysis \& Output: The analysis phase is divided into modules, each represented as a page in the platform, with multiple subpages offering specific analytical functions, including population structure, genetic diversity, selection sweep, and core collection.\\
 - Customized Output: The final output offers tailored visualizations and includes an AI-generated report summarizing the results. The pipeline streamlines data input, processing, and advanced analysis to deliver publication-ready figures and reports customized to the user's needs.\\
-*Subpage frame colors indicate available customizable functions. For example, blue frames for \ul{PCA} and \ul{DAPC} correspond to the Scatter Plot \textsuperscript{Plus} tool for customizing scatter plots, while red and purple frames correspond to Tree Plot \textsuperscript{Plus} and Manhattan Plot \textsuperscript{Plus}, respectively.
+*Subpage frame colors indicate available functions for customization. For example, blue frames for \ul{PCA} and \ul{DAPC} correspond to the Scatter Plot \textsuperscript{Plus} tool for customizing scatter plots, while red and purple frames correspond to Tree Plot \textsuperscript{Plus} and Manhattan Plot \textsuperscript{Plus}, respectively.
 
 \chapter{Data Input}\label{sec-data-input}
 
@@ -1426,9 +1426,9 @@ Establish a core SNP collection that represents the genetic variation observed i
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  Select an AI model. We recommend using \textbf{GPT-4o mini}, which offers the most cost-efficient performance. For more information, visit: https://platform.openai.com/docs/models.
+  Select an AI model. We recommend using \textbf{GPT-4o mini}, which offers the most cost-efficient performance. For more information, see below \ref{how-to-get-the-openai-api-key} and visit: https://platform.openai.com/docs/models.
 \item
-  Specify the task for your Preliminary Results to OpenAI.
+  Specify the task for your Preliminary Results to OpenAI models (see below \ref{tasks-for-ai-models}).
 \item
   Upload the \texttt{.txt} file containing your OpenAI API key (e.g., ``sk-\ldots\ldots{}'').
 
@@ -1437,107 +1437,151 @@ Establish a core SNP collection that represents the genetic variation observed i
   \includegraphics[width=4.6875in,height=\textheight]{images/clipboard-3104956900.png}
 \item
   Click the {\textbf{Get Report}} button to obtain \textbf{AI-driven Report}.
-
-  \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 \end{enumerate}
 
-\begin{quote}
-\textbf{How to get the OpenAI API key}:
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\paragraph*{Tasks for AI models:}\label{tasks-for-ai-models}
+\addcontentsline{toc}{paragraph}{Tasks for AI models:}
+
+\begin{itemize}
+\item
+  \textbf{Summary Request}: Generate a \ul{succinct overview of the key findings} from a genome-wide SNP analysis, ensuring clarity and a structured presentation of results.
+\item
+  \textbf{Data Interpretation}: Facilitate the analysis of genome-wide SNP data by \ul{elucidating findings and offering insights} into population structure and genetic variation.
+\item
+  \textbf{Report Structuring}: Develop a comprehensive framework for organizing and presenting the results of genome-wide SNP analysis in a \ul{scientific report} format.
+\item
+  \textbf{Idea Expansion}: Assist in brainstorming potential \ul{future research directions or experiments informed} by the results of the SNP analysis.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\paragraph*{\texorpdfstring{\textbf{How to get the OpenAI API key}:}{How to get the OpenAI API key:}}\label{how-to-get-the-openai-api-key}
+\addcontentsline{toc}{paragraph}{\textbf{How to get the OpenAI API key}:}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  \textbf{Sign Up or Log In} to the OpenAI website: https://platform.openai.com/docs/overview.
+  \textbf{Sign Up or Log In} to the OpenAI website: \url{https://platform.openai.com/docs/overview}.
 \item
-  \textbf{Check Your Usage} to track (free) credits and current consumption: https://platform.openai.com/usage.
+  \textbf{Check Your Usage} to track (free) credits and current consumption: \url{https://platform.openai.com/usage}.
 \item
-  If your (free) credits are \textbf{insufficient}, you can manage billing and payments by visiting: https://platform.openai.com/settings/organization/billing/overview.
+  If your (free) credits are \textbf{insufficient}, you can manage billing and payments by visiting: \url{https://platform.openai.com/settings/organization/billing/overview}.
 \item
-  \textbf{Generate a New API Key} by going to: https://platform.openai.com/api-keys.
+  \textbf{Generate a New API Key} by going to: \url{https://platform.openai.com/api-keys}.
 \item
   \textbf{Copy and Paste} the generated key into a Notepad file and save it as a \texttt{.txt} file for {\textbf{\emph{ShiNyP}}} use.
 \end{enumerate}
 
 Upon signing up, OpenAI provides free credits valid for 3 months. After the free trial credits expire or are exhausted, you'll be billed based on your usage. Costs depend on the model and the number of tokens processed.
-\end{quote}
+
+\includegraphics{images/clipboard-420815584.png}
+
+\emph{The AI Report Complete!}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\paragraph*{Encountered an error? Let's fix it!}\label{encountered-an-error-lets-fix-it}
+\addcontentsline{toc}{paragraph}{Encountered an error? Let's fix it!}
+
+\begin{description}
+\item[Error: HTTP 401 Unauthorized]
+This error message indicates that your authentication credentials are invalid. This could happen for several reasons, such as:
+
+\begin{itemize}
+\item
+  You are using a revoked API key.
+\item
+  You are using a different API key than one under the requesting organization.
+\item
+  You are using an API key that does not have the required permissions for the endpoint you are calling.
+\end{itemize}
+
+To resolve this error, first check that you are using the correct API key and organization ID in your request header. You can find your API key and organization ID in your account settings \href{https://platform.openai.com/account/api-keys}{here}.
+\item[Error: Failed to Perform HTTP Request]
+This error may indicate that the request timed out, possibly due to an excessive input token count, which prevents the OpenAI model from completing the task within the allotted time.
+
+To resolve this issue, try selecting the `GPT-3.5 Turbo' model to generate the report first. If successful, you can then switch to other models for subsequent tasks.
+\end{description}
 
 \chapter{INDEX}\label{sec-index}
 
 \begin{itemize}
 \item
-  AI Report \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-ai-report.html\#sec-ai-report}{10}
+  AI Report \href{https://teddyenn.github.io/ShiNyP-guide/sec-ai-report.html\#sec-ai-report}{10}
 \item
-  AMOVA (Analysis of MOlecular VAriance) \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-genetic-diversity.html\#amova-analysis-of-molecular-variance}{7.4}
+  AMOVA (Analysis of MOlecular VAriance) \href{https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html\#amova-analysis-of-molecular-variance}{7.4}
 \item
-  API key \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-ai-report.html\#step-2-ai-driven-report}{10}
+  API key \href{https://teddyenn.github.io/ShiNyP-guide/sec-ai-report.html\#step-2-ai-driven-report}{10}
 \item
-  Bayesian Information Criterion (BIC) \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-population-structure.html\#step-2-dapc-analysis}{6.2}
+  Bayesian Information Criterion (BIC) \href{https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html\#step-2-dapc-analysis}{6.2}
 \item
-  Chromosome Info. \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html\#snp-density}{4.3}
+  Chromosome Info. \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#snp-density}{4.3} \href{https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html\#circos-plot}{7.2} \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#ibs-identity-by-state}{8.3} \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#manhattan-plot-plus}{8.4} \href{https://teddyenn.github.io/ShiNyP-guide/sec-core-collection.html\#core-snp-set}{9.2}
 \item
-  Circos Plot \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-genetic-diversity.html\#circos-plot}{7.2}
+  Circos Plot \href{https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html\#circos-plot}{7.2}
 \item
-  Core Sample Set \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-core-collection.html\#core-sample-set}{9.1}
+  Core Sample Set \href{https://teddyenn.github.io/ShiNyP-guide/sec-core-collection.html\#core-sample-set}{9.1}
 \item
-  Core SNP Set \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-core-collection.html\#core-snp-set}{9.2}
+  Core SNP Set \href{https://teddyenn.github.io/ShiNyP-guide/sec-core-collection.html\#core-snp-set}{9.2}
 \item
-  DAPC (Discriminant Analysis of Principal Components) \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-population-structure.html\#dapc-discriminant-analysis-of-principal-components}{6.2}
+  DAPC (Discriminant Analysis of Principal Components) \href{https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html\#dapc-discriminant-analysis-of-principal-components}{6.2}
 \item
-  data.frame \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-input.html\#step-2-transform-to-data.frame}{3.1}
+  data.frame \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-input.html\#step-2-transform-to-data.frame}{3.1}
 \item
-  Demo Data \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-input.html\#step-1-input-your-vcf-file}{3.1}
+  Demo Data \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-input.html\#step-1-input-your-vcf-file}{3.1}
 \item
-  Diversity Parameter \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-genetic-diversity.html\#diversity-parameter}{7.1}
+  Diversity Parameter \href{https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html\#diversity-parameter}{7.1}
 \item
-  Genetic Distance \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-genetic-diversity.html\#genetic-distance}{7.3}
+  Genetic Distance \href{https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html\#genetic-distance}{7.3}
 \item
-  genind \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-conversion.html\#step-1-transform-data.frame-to-genind}{5}
+  genind \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-conversion.html\#step-1-transform-data.frame-to-genind}{5}
 \item
-  genlight \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-conversion.html\#step-2-transform-genind-to-genlight}{5}
+  genlight \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-conversion.html\#step-2-transform-genind-to-genlight}{5}
 \item
-  Group Info. \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-population-structure.html\#scatter-plot-plus}{6.6}
+  Group Info. \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-conversion.html\#step-1-transform-data.frame-to-genind}{5} \href{https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html\#kinship-analysis}{6.5} \href{https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html\#scatter-plot-plus}{6.6} \href{https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html\#diversity-parameter}{7.1} \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#outflank}{8.2}
 \item
-  Hardy-Weinberg equilibrium (HWE) \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html\#snp-qc}{4.2}
+  Hardy-Weinberg equilibrium (HWE) \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#snp-qc}{4.2}
 \item
-  Heterozygosity rate \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html\#sample-qc}{4.1}
+  Heterozygosity rate \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#sample-qc}{4.1}
 \item
-  IBS (Identity By State) \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-selection-sweep.html\#ibs-identity-by-state}{8.3}
+  IBS (Identity By State) \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#ibs-identity-by-state}{8.3}
 \item
-  Kinship Analysis \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-population-structure.html\#kinship-analysis}{6.5}
+  Kinship Analysis \href{https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html\#kinship-analysis}{6.5}
 \item
-  Manhattan Plot \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-selection-sweep.html\#manhattan-plot-plus}{8.4}
+  Manhattan Plot \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#manhattan-plot-plus}{8.4}
 \item
-  Minor allele frequency (MAF) \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html\#snp-qc}{4.2}
+  Minor allele frequency (MAF) \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#snp-qc}{4.2}
 \item
-  Missing rate \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html\#sample-qc}{4.1}
+  Missing rate \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#sample-qc}{4.1}
 \item
-  NJ (Neighbor-Joining) Tree \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-population-structure.html\#nj-neighbor-joining-tree}{6.4}
+  NJ (Neighbor-Joining) Tree \href{https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html\#nj-neighbor-joining-tree}{6.4}
 \item
-  OutFLANK \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-selection-sweep.html\#outflank}{8.2}
+  OutFLANK \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#outflank}{8.2}
 \item
-  PCA (Principal Component Analysis) \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-population-structure.html\#pca-principal-component-analysis}{6.1}
+  PCA (Principal Component Analysis) \href{https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html\#pca-principal-component-analysis}{6.1}
 \item
-  pcadapt \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-selection-sweep.html\#pcadapt}{8.1}
+  pcadapt \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#pcadapt}{8.1}
 \item
-  Permutation Test \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-genetic-diversity.html\#step-2-run-permutation-test}{7.4}
+  Permutation Test \href{https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html\#step-2-run-permutation-test}{7.4}
 \item
-  Sample QC \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html\#sample-qc}{4.1}
+  Sample QC \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#sample-qc}{4.1}
 \item
-  Scatter Plot \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html\#sample-qc}{6.6}
+  Scatter Plot \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#sample-qc}{6.6}
 \item
-  \emph{ShiNyP} \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-shinyp.html\#sec-shinyp}{2}
+  \emph{ShiNyP} \href{https://teddyenn.github.io/ShiNyP-guide/sec-shinyp.html\#sec-shinyp}{2}
 \item
-  Site Info. \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-input.html\#step-2-transform-to-data.frame}{3.1}
+  Site Info. \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-input.html\#step-2-transform-to-data.frame}{3.1} \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#sample-qc}{4.1} \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#snp-qc}{4.2} \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#snp-density}{4.3} \href{https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html\#diversity-parameter}{7.1} \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#pcadapt}{8.1} \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#outflank}{8.2} \href{https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html\#ibs-identity-by-state}{8.3} \href{https://teddyenn.github.io/ShiNyP-guide/sec-core-collection.html\#core-snp-set}{9.2}
 \item
-  SNP Density \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html\#snp-density}{4.3}
+  SNP Density \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#snp-density}{4.3}
 \item
-  SNP QC \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-qc.html\#snp-qc}{4.2}
+  SNP QC \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html\#snp-qc}{4.2}
 \item
-  Tree Plot \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-population-structure.html\#tree-plot-plus}{6.7}
+  Tree Plot \href{https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html\#tree-plot-plus}{6.7}
 \item
-  UPGMA (Unweighted Pair Group Method with Arithmetic mean) Tree \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-population-structure.html\#upgma-unweighted-pair-group-method-with-arithmetic-mean-tree}{6.3}
+  UPGMA (Unweighted Pair Group Method with Arithmetic mean) Tree \href{https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html\#upgma-unweighted-pair-group-method-with-arithmetic-mean-tree}{6.3}
 \item
-  VCF \href{https://teddyenn.github.io/ShiNyP_guide.io/sec-data-input.html\#vcf}{3.1}
+  VCF \href{https://teddyenn.github.io/ShiNyP-guide/sec-data-input.html\#vcf}{3.1}
 \end{itemize}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}

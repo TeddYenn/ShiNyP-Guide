@@ -8,7 +8,7 @@
 
 -   Bayesian Information Criterion (BIC) [6.2](https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html#step-2-dapc-analysis)
 
--   Chromosome Info. [4.3](https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html#snp-density)
+-   Chromosome Info. [4.3](https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html#snp-density) [7.2](https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html#circos-plot) [8.3](https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html#ibs-identity-by-state) [8.4](https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html#manhattan-plot-plus) [9.2](https://teddyenn.github.io/ShiNyP-guide/sec-core-collection.html#core-snp-set)
 
 -   Circos Plot [7.2](https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html#circos-plot)
 
@@ -30,7 +30,7 @@
 
 -   genlight [5](https://teddyenn.github.io/ShiNyP-guide/sec-data-conversion.html#step-2-transform-genind-to-genlight)
 
--   Group Info. [6.6](https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html#scatter-plot-plus)
+-   Group Info. [5](https://teddyenn.github.io/ShiNyP-guide/sec-data-conversion.html#step-1-transform-data.frame-to-genind) [6.5](https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html#kinship-analysis) [6.6](https://teddyenn.github.io/ShiNyP-guide/sec-population-structure.html#scatter-plot-plus) [7.1](https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html#diversity-parameter) [8.2](https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html#outflank)
 
 -   Hardy-Weinberg equilibrium (HWE) [4.2](https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html#snp-qc)
 
@@ -62,7 +62,7 @@
 
 -   *ShiNyP* [2](https://teddyenn.github.io/ShiNyP-guide/sec-shinyp.html#sec-shinyp)
 
--   Site Info. [3.1](https://teddyenn.github.io/ShiNyP-guide/sec-data-input.html#step-2-transform-to-data.frame)
+-   Site Info. [3.1](https://teddyenn.github.io/ShiNyP-guide/sec-data-input.html#step-2-transform-to-data.frame) [4.1](https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html#sample-qc) [4.2](https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html#snp-qc) [4.3](https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html#snp-density) [7.1](https://teddyenn.github.io/ShiNyP-guide/sec-genetic-diversity.html#diversity-parameter) [8.1](https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html#pcadapt) [8.2](https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html#outflank) [8.3](https://teddyenn.github.io/ShiNyP-guide/sec-selection-sweep.html#ibs-identity-by-state) [9.2](https://teddyenn.github.io/ShiNyP-guide/sec-core-collection.html#core-snp-set)
 
 -   SNP Density [4.3](https://teddyenn.github.io/ShiNyP-guide/sec-data-qc.html#snp-density)
 
