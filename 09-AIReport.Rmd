@@ -62,6 +62,15 @@ Upon signing up, OpenAI provides free credits valid for 3 months. After the free
 
 ##### Encountered an error? Let’s fix it! {.unnumbered}
 
+Error: Could not find function OpenAI
+
+:   This error may indicate that the **irudnyts/openai** package from GitHub was not installed correctly. To resolve this issue, try reinstalling the package using the following command:
+
+    ``` R
+    remotes::install_github("irudnyts/openai", ref = "r6", force = TRUE)
+    library(openai)
+    ```
+
 Error: HTTP 401 Unauthorized
 
 :   This error message indicates that your authentication credentials are invalid. This could happen for several reasons, such as:

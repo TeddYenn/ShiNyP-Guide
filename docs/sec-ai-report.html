@@ -280,6 +280,12 @@ div.csl-indent {
 <div id="encountered-an-error-lets-fix-it" class="section level5 unnumbered hasAnchor">
 <h5>Encountered an error? Let’s fix it!<a href="sec-ai-report.html#encountered-an-error-lets-fix-it" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <dl>
+<dt>Error: Could not find function OpenAI</dt>
+<dd>
+<p>This error may indicate that the <strong>irudnyts/openai</strong> package from GitHub was not installed correctly. To resolve this issue, try reinstalling the package using the following command:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="sec-ai-report.html#cb4-1" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;irudnyts/openai&quot;</span>, <span class="at">ref =</span> <span class="st">&quot;r6&quot;</span>, <span class="at">force =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-2"><a href="sec-ai-report.html#cb4-2" tabindex="-1"></a><span class="fu">library</span>(openai)</span></code></pre></div>
+</dd>
 <dt>Error: HTTP 401 Unauthorized</dt>
 <dd>
 <p>This error message indicates that your authentication credentials are invalid. This could happen for several reasons, such as:</p>
