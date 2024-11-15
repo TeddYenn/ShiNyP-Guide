@@ -1,0 +1,64 @@
+---
+title: 'ShiNyP: User Guide'
+author: 
+  - name: "Yen-Hsiang Huang, Chung-Feng Kao"
+    affiliation: "Department of Agronomy, National Chung-Hsing University, Taiwan"
+date: "Oct 2024"
+description: "ShiNyP: An Interactive Shiny-Based Platform for Genome-Wide SNP Analysis and Visualization"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography:
+- book.bib
+- packages.bib
+link-citations: true
+github-repo: "TeddYenn/ShiNyP"
+---
+
+# Quickstart
+
+**Step 1: Pre-install Required Package**
+
+``` r
+install.packages("BiocManager")
+BiocManager::install(version = "3.19")
+BiocManager::install("qvalue")
+```
+
+**Step 2: Install the [*ShiNyP*]{style="color: #9D6853;"}** **Package from GitHub**
+
+``` r
+install.packages("remotes") 
+remotes::install_github("TeddYenn/ShiNyP", force = TRUE)
+```
+
+**Step 3: Start the [*ShiNyP*]{style="color: #9D6853;"}** **Platform**
+
+``` r
+library(ShiNyP)
+ShiNyP::run_ShiNyP()
+```
+
+**Step 4: Run [*ShiNyP*]{style="color: #9D6853;"}** **Analysis**
+
+Input your SNP data in VCF format, or feel free to use our [**Demo Data**]{style="color: #1e90ff;"}.
+
+> **Note:** If you run in [RStudio]{.underline}, you can click the [**Open in Browser**]{style="color: #1e90ff;"} button.
+
+------------------------------------------------------------------------
+
+::: {.highlighted-text style="padding-top: 15px; padding-bottom: 1px; padding-left: 15px;background-color: #ceeafa; color: #0a3f5d"}
+**This is the user guide page for [*ShiNyP*]{style="color: #9D6853;"}, live at <https://teddyenn.github.io/ShiNyP-guide/>.**
+:::
+
+![](images/0928_頁面_1.jpg)
+
+------------------------------------------------------------------------
+
+[***ShiNyP***]{style="color: #9D6853;"} is also accessible online at <a href="https://teddyhuang.shinyapps.io/ShiNyP/" target="_blank">[**https://teddyhuang.shinyapps.io/ShiNyP/**](https://teddyhuang.shinyapps.io/ShiNyP/){.uri}</a>. But, please note that due to limited memory usage on this platform, we [**DO NOT RECOMMEND**]{style="color: #8b0000;"} using it to analyze large SNP dataset. The online version is intended solely as a demo website for demonstration purposes. For real data analysis, please consider downloading the platform from GitHub repository <a href="https://github.com/TeddYenn/ShiNyP" target="_blank">[**https://github.com/TeddYenn/ShiNyP**](https://github.com/TeddYenn/ShiNyP){.uri}</a> and running it locally on the R environment.
+
+------------------------------------------------------------------------
+
+-   Aug 2024: Initial release alpha version on [GitHub](https://github.com/TeddYenn/ShiNyP).
+-   Oct 2024: Release v0.1.0 on [GitHub](https://github.com/TeddYenn/ShiNyP).
+
+For any inquiries, please email us at: [teddyhuangyh\@gmail.com](mailto:teddyhuangyh@gmail.com){.email}
