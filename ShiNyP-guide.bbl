@@ -1,0 +1,92 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Excoffier et~al.(1992)Excoffier, Smouse, and Quattro]{excoffier1992}
+L~Excoffier, P~E Smouse, and J~M Quattro.
+\newblock Analysis of molecular variance inferred from metric distances among dna haplotypes: application to human mitochondrial dna restriction data.
+\newblock \emph{Genetics}, 131\penalty0 (2):\penalty0 479--491, 06 1992.
+\newblock \doi{10.1093/genetics/131.2.479}.
+\newblock URL \url{http://dx.doi.org/10.1093/genetics/131.2.479}.
+
+\bibitem[GOUDET(2004)]{goudet2004}
+{JÉRÔME} GOUDET.
+\newblock hierfstat, a package for r to compute and test hierarchical {\emph{ f}}{-}statistics.
+\newblock \emph{Molecular Ecology Notes}, 5\penalty0 (1):\penalty0 184--186, 12 2004.
+\newblock \doi{10.1111/j.1471-8286.2004.00828.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1471-8286.2004.00828.x}.
+
+\bibitem[Granato et~al.(2018)Granato, Galli, de~Oliveira~Couto, e~Souza, {Mendonça}, and Fritsche-Neto]{granato2018}
+Italo S.~C. Granato, Giovanni Galli, Evellyn~Giselly de~Oliveira~Couto, Massaine~Bandeira e~Souza, Leandro~Freitas {Mendonça}, and Roberto Fritsche-Neto.
+\newblock snpready: a tool to assist breeders in genomic analysis.
+\newblock \emph{Molecular Breeding}, 38\penalty0 (8), 07 2018.
+\newblock \doi{10.1007/s11032-018-0844-8}.
+\newblock URL \url{http://dx.doi.org/10.1007/s11032-018-0844-8}.
+
+\bibitem[Gu et~al.(2014)Gu, Gu, Eils, Schlesner, and Brors]{gu2014}
+Zuguang Gu, Lei Gu, Roland Eils, Matthias Schlesner, and Benedikt Brors.
+\newblock {\emph{circlize}}implements and enhances circular visualization in r.
+\newblock \emph{Bioinformatics}, 30\penalty0 (19):\penalty0 2811--2812, 06 2014.
+\newblock \doi{10.1093/bioinformatics/btu393}.
+\newblock URL \url{http://dx.doi.org/10.1093/bioinformatics/btu393}.
+
+\bibitem[Jeong et~al.(2017)Jeong, Kim, Jeong, Kang, Moon, and Kim]{Jeong2017}
+Seongmun Jeong, Jae-Yoon Kim, Soon-Chun Jeong, Sung-Taeg Kang, Jung-Kyung Moon, and Namshin Kim.
+\newblock Genocore: A simple and fast algorithm for core subset selection from large genotype datasets.
+\newblock \emph{PLOS ONE}, 12\penalty0 (7):\penalty0 e0181420, 07 2017.
+\newblock \doi{10.1371/journal.pone.0181420}.
+\newblock URL \url{http://dx.doi.org/10.1371/journal.pone.0181420}.
+
+\bibitem[Jombart et~al.(2010)Jombart, Devillard, and Balloux]{jombart2010}
+Thibaut Jombart, {Sébastien} Devillard, and {François} Balloux.
+\newblock Discriminant analysis of principal components: a new method for the analysis of genetically structured populations.
+\newblock \emph{BMC Genetics}, 11\penalty0 (1):\penalty0 94, 2010.
+\newblock \doi{10.1186/1471-2156-11-94}.
+\newblock URL \url{http://dx.doi.org/10.1186/1471-2156-11-94}.
+
+\bibitem[Kamvar et~al.(2014)Kamvar, Tabima, and {Grünwald}]{kamvar2014}
+Zhian~N. Kamvar, Javier~F. Tabima, and Niklaus~J. {Grünwald}.
+\newblock {\emph{Poppr}}: an r package for genetic analysis of populations with clonal, partially clonal, and/or sexual reproduction.
+\newblock \emph{PeerJ}, 2:\penalty0 e281, 03 2014.
+\newblock \doi{10.7717/peerj.281}.
+\newblock URL \url{http://dx.doi.org/10.7717/peerj.281}.
+
+\bibitem[Kang et~al.(2010)Kang, Sul, Service, Zaitlen, Kong, Freimer, Sabatti, and Eskin]{kang2010}
+Hyun~Min Kang, Jae~Hoon Sul, Susan~K Service, Noah~A Zaitlen, Sit-yee Kong, Nelson~B Freimer, Chiara Sabatti, and Eleazar Eskin.
+\newblock Variance component model to account for sample structure in genome-wide association studies.
+\newblock \emph{Nature Genetics}, 42\penalty0 (4):\penalty0 348--354, 03 2010.
+\newblock \doi{10.1038/ng.548}.
+\newblock URL \url{http://dx.doi.org/10.1038/ng.548}.
+
+\bibitem[Luu et~al.(2016)Luu, Bazin, and Blum]{Luu2017}
+Keurcien Luu, Eric Bazin, and Michael G.~B. Blum.
+\newblock {\emph{pcadapt}}: an r package to perform genome scans for selection based on principal component analysis.
+\newblock \emph{Molecular Ecology Resources}, 17\penalty0 (1):\penalty0 67--77, 09 2016.
+\newblock \doi{10.1111/1755-0998.12592}.
+\newblock URL \url{http://dx.doi.org/10.1111/1755-0998.12592}.
+
+\bibitem[Paradis and Schliep(2018)]{paradis2018}
+Emmanuel Paradis and Klaus Schliep.
+\newblock ape 5.0: an environment for modern phylogenetics and evolutionary analyses in r.
+\newblock \emph{Bioinformatics}, 35\penalty0 (3):\penalty0 526--528, 07 2018.
+\newblock \doi{10.1093/bioinformatics/bty633}.
+\newblock URL \url{http://dx.doi.org/10.1093/bioinformatics/bty633}.
+
+\bibitem[Whitlock and Lotterhos(2015)]{whitlock2015}
+Michael~C. Whitlock and Katie~E. Lotterhos.
+\newblock Reliable detection of loci responsible for local adaptation: Inference of a null model through trimming the distribution of{\emph{f}}{\textsubscript{st}}.
+\newblock \emph{The American Naturalist}, 186\penalty0 (S1):\penalty0 S24--S36, 10 2015.
+\newblock \doi{10.1086/682949}.
+\newblock URL \url{http://dx.doi.org/10.1086/682949}.
+
+\bibitem[Yu et~al.(2016)Yu, Smith, Zhu, Guan, and Lam]{yu2016}
+Guangchuang Yu, David~K. Smith, Huachen Zhu, Yi~Guan, and {Tommy Tsan{-}Yuk} Lam.
+\newblock ggtree: an r package for visualization and annotation of phylogenetic trees with their covariates and other associated data.
+\newblock \emph{Methods in Ecology and Evolution}, 8\penalty0 (1):\penalty0 28--36, 09 2016.
+\newblock \doi{10.1111/2041-210x.12628}.
+\newblock URL \url{http://dx.doi.org/10.1111/2041-210X.12628}.
+
+\end{thebibliography}

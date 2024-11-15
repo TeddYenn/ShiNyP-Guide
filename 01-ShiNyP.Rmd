@@ -38,8 +38,11 @@ If you encounter any issues or have suggestions for new features, please submit 
 
 -   **Feedback Form**: <a href="https://forms.gle/GPCggSo5czyNLfoB7" target="_blank">https://forms.gle/GPCggSo5czyNLfoB7</a>
 
+<<<<<<< HEAD
 -   **Podcast Program**: <a href="https://notebooklm.google.com/notebook/a952a309-6372-428d-90af-71593d784dd1/audio"target="_blank">https://reurl.cc/WN6R35</a>
 
+=======
+>>>>>>> d552aa4846611e5028856b370a093706c5718576
 ------------------------------------------------------------------------
 
 ![](images/Fig.%201-02.jpg)
